@@ -1,0 +1,437 @@
+/* Estilos globales */
+.tag-txt-blue-light {
+    color: #00A1ED !important;
+}
+
+.show {
+    display: block;
+}
+
+/* Estilos para el navbar, usuario logueado */
+.tag-txt-usuario-logueado {
+    display: flex;
+    width: 100%;
+    max-width: 90px;
+    height: 34px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tag-icon-login {
+    display: none;
+}
+
+.tag-container-usuario-login {
+    margin-left: 10px;
+    display: flex;
+    align-items: end;
+}
+
+.tag-info-usuario-login {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-right: 2px;
+    width: 100%;
+}
+
+.tag-txt-bienvenida {
+    width: 100%;
+    font: normal normal 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #00A1ED;
+}
+
+.tag-txt-nomb-corto {
+    width: 100%;
+    text-align: left;
+    font: normal normal 200 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.tag-cont-arrow {
+    margin-right: 15px;
+}
+
+.arrow {
+    background: transparent;
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    transform: rotate(-45deg);
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 2px solid #FFFFFF;
+    margin-bottom: 6px;
+}
+
+.arrow ::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-width: .8vmin .8vmin 0 0;
+    border-style: solid;
+    border-color: #fafafa;
+    transition: .2s ease;
+    display: block;
+    transform-origin: 100% 0;
+}
+
+.arrow ::after {
+    content: '';
+    float: left;
+    position: relative;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    border-width: 0 .8vmin 0 0;
+    border-style: solid;
+    border-color: #fafafa;
+    transform-origin: 100% 0;
+    transition: .2s ease;
+}
+
+/* Estilos del contenedor de informacion de usuario */
+.tag-flex-wrap-mob {
+    flex-wrap: wrap;
+}
+
+.tag-display-mobile {
+    display: block;
+}
+
+.tag-separador {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #BFBFBF;
+    opacity: 1;
+    width: 100%;
+}
+
+#tagUsuarioLogueado .modal-header {
+    border-bottom: none;
+}
+
+.tag-container-img-perfil {
+    width: 101px;
+    height: 101px;
+    border-radius: 50%;
+}
+
+.tag-foto-usuario {
+    display: flex;
+    width: 100%;
+    height: 101px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.tag-foto-usuario > img {
+    background-color: #F5F7FB;
+}
+
+.tag-icono-editar {
+    width: 41px;
+    height: 41px;
+    position: relative;
+    overflow: hidden;
+    left: 75px;
+    bottom: 40px;
+    background-color: transparent;
+}
+
+.tag-nombre-usuario {
+    font: normal normal medium 24px/28px Aeonik Pro;
+    letter-spacing: 0px;
+    color: #312B51;
+    opacity: 1;
+}
+
+.tag-nombre-puesto {
+    text-align: center;
+    font: normal normal 300 16px/18px Aeonik Pro;
+    letter-spacing: 0px;
+    color: #00ACED;
+    opacity: 1;
+}
+
+.tag-tex-info-usuario {
+    font: normal normal normal 14px/16px Aeonik Pro;
+    letter-spacing: 0.22px;
+    color: #8B8B8B;
+    opacity: 1;
+}
+
+.tag-modal-titulo-info {
+    font: normal normal normal 18px/21px Aeonik Pro;
+    letter-spacing: 0.29px;
+    color: #312B51;
+    opacity: 1;
+}
+
+.tag-modal-descripcion-info {
+    font: normal normal normal 16px/18px Aeonik Pro;
+    letter-spacing: 0.26px;
+    color: #00ACED;
+    opacity: 1;
+}
+
+.tag-txt-cambiar {
+    text-decoration: underline;
+}
+
+.tag-cerrar-sesion .tag-cont-icon-logout {
+    margin-right: 5%;
+}
+
+.tag-cerrar-sesion p {
+    margin-bottom: 0;
+}
+
+#modalUsuario .arrow {
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 96%;
+    top: -11px;
+}
+
+/* Estilos para el contenedor de editar foto */
+
+#fotoEdit .modal-backdrop {
+    z-index: 1056;
+}
+
+.tag-edita-foto {
+    z-index: 1057;
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    padding: 10px;
+}
+
+.tag-edita-foto-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #FFFFFF;
+    padding: 15px;
+}
+
+.tag-btn-azul-accion {
+    width: 100%;
+    height: 50px;
+    background: #00A1ED 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #FFFFFF;
+    border: none;
+}
+
+.tag-btn-azul-accion:hover {
+    background: #00A1ED;
+}
+
+.tag-btn-no-bg-no-border {
+    text-align: center;
+    font: normal normal 300 16px/20px Avenir;
+    letter-spacing: 0px;
+    color: #021D49;
+    opacity: 1;
+    width: 100%;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: none;
+} 
+
+.tag-header-modal-button {
+    justify-content: end;
+    text-align: end;
+    display: flex;
+    align-items: end;
+    width: 100%;
+}
+
+/* Contenedor de inputs para cambiar datos */
+
+#editInfoContacto .modal-backdrop {
+    z-index: 1056;
+}
+
+.tag-edita-info {
+    z-index: 1057;
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    padding: 10px;
+}
+
+.tag-edita-info-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #FFFFFF;
+    padding: 15px;
+}
+
+.tag-edita-info-titulo {
+    text-align: center;
+    font: normal normal 900 22px/20px Avenir;
+    letter-spacing: 0px;
+    color: #021D49;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.tag-edit-info-titilo-form {
+    text-align: left;
+    font: normal normal 300 20px/27px Avenir;
+    letter-spacing: 0px;
+    color: #152049;
+    opacity: 1;
+}
+
+#editInfoContacto .tag-form-input {
+    background-color: #F5F7FB;
+    height: 50px;
+    border-bottom: 1px solid #021D49;
+    border-radius: 0;
+}
+
+#editInfoContacto .tag-btn-inicio-sesion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00A1ED;
+    height: 50px;
+    border: none;
+}
+
+#editInfoContacto .tag-btn-inicio-sesion :hover {
+    background-color: #00A1ED;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    /* Estilos para el navbar, usuario logueado */
+    .tag-txt-usuario-logueado {
+        height: 27px;
+        max-width: 120px;
+    }
+
+    .tag-icon-login {
+        display: flex;
+        width: 21px;
+        height: 21px;
+        margin-right: 8px;
+    }
+
+    .tag-container-usuario-login {
+        display: flex;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    /* .tag-info-usuario-login {
+        max-width: 38px;
+    } */
+
+    .tag-txt-bienvenida {
+        font: normal normal 10px/14px Avenir;
+    }
+
+    .tag-txt-nomb-corto {
+        font: normal normal normal 12px/16px Avenir;
+    }
+
+    .arrow { 
+        margin-bottom: 0;
+        /* margin-right: 20px;
+        width: 15px; */
+    }
+
+    /* Estilos del contenedor de informacion de usuario */
+    
+    .tag-display-mobile {
+        display: none;
+    }
+
+    #tagUsuarioLogueado .modal-content {
+        width: 770px;
+        border-top: 3px solid #00A1ED;
+        border-radius: 0;
+    }
+
+    #tagUsuarioLogueado .modal-dialog {
+        max-width: 770px;
+        margin-right: 1%;
+        margin-top: 4%;
+    }
+
+    #tagUsuarioLogueado .modal-footer {
+        border: none;
+    }
+
+    .tag-container-img-perfil {
+        margin-right: 3%;
+    }
+
+    .tag-nombre-puesto {
+        text-align: left;
+    }
+
+    .tag-flex-wrap-mob {
+        flex-wrap: initial;
+    }
+
+    /* Estilos para el contenedor de editar foto */
+
+    .tag-edita-foto {
+        top: 8%;
+    }
+
+    .tag-btn-azul-accion {
+        max-width: 300px;
+    }
+
+    .tag-btn-no-bg-no-border {
+        max-width: 300px;
+    } 
+
+    .tag-edita-foto-container {
+        max-width: 720px;
+        height: 503px;;
+    }
+
+    /* Contenedor de inputs para cambiar datos */
+
+    .tag-edita-info {
+        top: 8%;
+    }
+
+    .tag-edita-info-container {
+        max-width: 500px;
+        height: 439px;
+    }
+
+    .tag-edit-info-width-form {
+        width: 328px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

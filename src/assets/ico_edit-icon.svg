@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41">
+  <g id="ico_edit-icon" transform="translate(-110 -107)">
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(110 107)" fill="#fff" stroke="#62aee6" stroke-width="1">
+      <circle cx="20.5" cy="20.5" r="20.5" stroke="none"/>
+      <circle cx="20.5" cy="20.5" r="20" fill="none"/>
+    </g>
+    <path id="ico_edit-icon-2" data-name="ico_edit-icon" d="M13.514,15.394,23.729,5.179a.613.613,0,0,1,.867,0l3.469,3.473a.615.615,0,0,1,0,.869L17.853,19.733Zm-1.9,5.211a.853.853,0,0,0,1.032,1.031l4.382-1.075-4.339-4.339Zm-1.75,6.062a.877.877,0,0,0,.877.877H29.093a.877.877,0,0,0,0-1.753H10.738a.877.877,0,0,0-.877.877Z" transform="translate(111.03 111.425)" fill="#62aee6"/>
+  </g>
+</svg>
